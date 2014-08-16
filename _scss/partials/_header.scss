@@ -5,15 +5,29 @@ header {
 
 .h-wrap {
   @extend %padding-large;
+  background-color: $dark-color;
   
+  .logo-img {
+    height: 70px;
+    position: relative;
+    margin-top: -48px;
+    top: 24px;
+    margin-right: 30px;
+  }
+
   h1.title {
     @extend h3;
     display: inline-block;
     margin: 0;
     padding: 0;
-    font-weight: normal;
+    font-family: $font-family;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: -1px;
+    font-size: 33px;
+    line-height: 0;
     a {
-      color: $text-color;
+      color: $pink-color;
       text-decoration: none;
       &:hover {
         color: $link-color;
@@ -69,7 +83,7 @@ header {
     position: relative;
     width: 25px;
     height: 2px;
-    background: $text-color;
+    background: $gray-color;
     border-radius: 20px;
 
     &::before,
@@ -80,7 +94,7 @@ header {
       left: 0;
       width: 25px;
       height: 2px;
-      background: $text-color;
+      background: $gray-color;
       border-radius: 20px; 
 
       transition: all .3s ease;
