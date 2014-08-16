@@ -7,7 +7,6 @@ body {
     -webkit-font-smoothing:antialiased;
     text-rendering:optimizelegibility;
     font-size:17px;
-    background-color: #F7F4E8;
 }
 
 .is-visible {
@@ -121,6 +120,9 @@ a {
         padding: 100px 0;
         z-index:10;
 
+        a:last-child {
+            margin:1.5em 0 0 0;
+        }
         a {
             color:#fff;
             border:0;

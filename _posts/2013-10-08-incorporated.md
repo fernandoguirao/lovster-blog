@@ -8,10 +8,10 @@ cover_image: blog-cover.jpg
 excerpt: "Incorporated provides a great typography, responsive design, author details, semantic markup and more."
 
 author:
-  name: Scrapp
-  twitter: scrapp
+  name: Karri Saarinen
+  twitter: karrisaarinen
   gplus: 100687498195339762535 
-  bio: CEO
+  bio: Co-founder, Design
   image: ks.png
 ---
 
@@ -103,6 +103,6 @@ inc:
 <div class="full zoomable"><img src="/images/incorporated.jpg"></div>
 
 **Awesome quotes**
-> ?Effective companies tend to communicate more, their people are curious and they have opinions?
+> “Effective companies tend to communicate more, their people are curious and they have opinions”
 
 Stay tuned for updates.

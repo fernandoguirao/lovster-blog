@@ -1,21 +1,21 @@
 inc:
   # Blog Information
-  title:        "Lovster | Blog"
-  subtitle:     "Play the game"
+  title:        "Jekyll Incorporated"
+  subtitle:     "Modern Jekyll based blog for companies"
   cover_image:  blog-cover.jpg
   logo:         logo.png
   
   # Company information
-  company:      Lovster
-  url:          http://lovster.co/
-  facebook:     lovster
-  twitter:      lovster
+  company:      Incorporated
+  url:          http://sendtoinc.com/
+  facebook:     sendtoinc
+  twitter:      sendtoinc
   gplus:        '101183822199340201470'
-  about_link:   https://lovster.co/about/
+  about_link:   https://sendtoinc.com/about/
   
   # Product Information
-  product_link: http://lovster.co/
-  tagline:      "Play the game"
+  product_link: http://incorporated.sendtoinc.com/
+  tagline:      "Get a modern blog for your company"
   
   # Comments
   disqus:
@@ -32,18 +32,16 @@ inc:
   
  # Analytics     
   analytics:
-    google: 
-      # eg. 'UA-123-12'
-      id:       false
+    google: false # Add tracking code in _includes/_google-analytics.html
       
       
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
-  google_font: 'Monserrat:400,700'
+  google_font: 'Droid+Sans:400,700'
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://www.lovster.co
+url:         http://blog.lovster.co
 source:      .
 destination: ./_site
 plugins:     ./_plugins
