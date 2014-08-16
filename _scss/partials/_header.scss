@@ -6,7 +6,7 @@ header {
 .h-wrap {
   @extend %padding-large;
   background-color: $dark-color;
-  
+
   .logo-img {
     height: 70px;
     position: relative;
@@ -37,6 +37,15 @@ header {
       }
     }
   } // end h1.title
+
+  @media(max-width:943px){
+    .logo-img { height:58px; margin-right:19px; }
+    h1.title { top:5px;position: relative; }
+  }
+  @media(max-width:643px){
+    .logo-img { height:51px; top:22px; }
+  }
+
 
   .close {
     .lines {
