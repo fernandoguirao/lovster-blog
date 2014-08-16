@@ -47,7 +47,8 @@ display: none!important;
     h1.title { top:5px;position: relative; }
   }
   @media(max-width:643px){
-    .logo-img { height:51px; top:22px; }
+    .logo-img { display:none; }
+    h1.title { font-size:15px; }
   }
 
 
