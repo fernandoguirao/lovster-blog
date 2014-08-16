@@ -29,6 +29,9 @@ header {
     a {
       color: $pink-color;
       text-decoration: none;
+      span {
+        color: $gray-color;
+      }
       &:hover {
         color: $link-color;
       }

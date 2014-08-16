@@ -11,14 +11,16 @@ url: "http://blog.lovster.co"
 baseurl: ""
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words. 
-author-bio: "I'm a dog. I develop things. This is my blog so why don't you close this damn side panel (cursed by most UX Designers but I don't care, I do whatever I want) and start reading my awesome stuff?"
+author-bio: "We are a small team working on a secret project that you will gonna hear talking about soon."
 
 # Social Accounts (mine, as placeholders)
 
-twitter: fguirao
-github: fernandoguirao
-dribbble: fguirao
-instagram: fguirao
+twitter: lovstergames
+# github: fernandoguirao
+# dribbble: fguirao
+instagram: lovstergames
+facebook: Lovstergames
+# pinterest: lovster
 
 # Google Analytics (you may want to changes these with yours or even delete :)
 
