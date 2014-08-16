@@ -3,6 +3,10 @@ header {
   background: white;
 }
 
+nav.side-b ul li:last-child {
+display: none!important;
+}
+
 .h-wrap {
   @extend %padding-large;
   background-color: $dark-color;
